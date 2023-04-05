@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iReLwSP/IM1o/Dtk6T8PUhW6Q2p4QhISqdVmZRmSl9m+zP9h5WTOaUVqoCYZ8124NKDYKrG8HBOsw6VHq0V+eg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\SearchEngine\\SearchEngine\\SearchEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}
