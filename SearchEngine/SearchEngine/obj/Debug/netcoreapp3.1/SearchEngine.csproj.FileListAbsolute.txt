@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\SearchEngine.exe
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\SearchEngine.deps.json
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\SearchEngine.runtimeconfig.json
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\SearchEngine.runtimeconfig.dev.json
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\SearchEngine.dll
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\SearchEngine.pdb
+C:\Users\user\source\repos\SearchEngine\SearchEngine\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.AssemblyInfo.cs
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.csproj.CopyComplete
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.dll
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.pdb
+C:\Users\user\source\repos\SearchEngine\SearchEngine\obj\Debug\netcoreapp3.1\SearchEngine.genruntimeconfig.cache

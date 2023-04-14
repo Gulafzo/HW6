@@ -9,6 +9,20 @@ namespace SearchEngine
 {
     class Program
     {
+        static string ParsingHTML(string htmlDocument)
+        {
+            htmlDocument = htmlDocument.Replace(";", "");
+            int qyery = htmlDocument.IndexOf("&#");
+            if (qyery == -1)
+                return htmlDocument;
+            string Code = htmlDocument.Substring(qyery, 6);
+            Code = Code.Replace("&#", "");
+            int сharacterCode = int.Parse(Code);
+            char symbol = (char)сharacterCode;
+            Code = htmlDocument.Substring(qyery, 6);
+            htmlDocument = htmlDocument.Replace(Code, symbol.ToString());
+            return ParsingHTML(htmlDocument);
+        }
         static async Task Main(string[] args)
         {
             Console.Write("Введите запрос: ");
@@ -18,24 +32,17 @@ namespace SearchEngine
             string html = await client.GetStringAsync(url); // Отправляем GET запрос и получаем HTML страницу
             HtmlDocument doc = new HtmlDocument();//  объект для парсинга HTML
             doc.LoadHtml(html);
-            var searchResults = doc.DocumentNode.SelectNodes("//div[@class='g']");//   элементы с  "g" результаты поиска
+            var searchResults = doc.DocumentNode.SelectNodes("//div");
             foreach (var result in searchResults)
-            {               
-                var titleNode = result.SelectSingleNode(".//h3");// Находим заголовок  h3
-                if (titleNode != null)
+            {
+                if (result.FirstChild?.Name == "h3")
                 {
-                    string title = titleNode.InnerText;
-                    string link = result.Descendants("a").FirstOrDefault()?.GetAttributeValue("href", "");
-                    // Если ссылка начинается с "/url?q=" это ссылка на результат поиска удаляем эту часть
-                    if (link.StartsWith("/url?q="))
-                    {
-                        link = link.Substring(7);
-                    }
-
-                    Console.WriteLine($"{title}\n{link}\n");
+                    
+                    Console.WriteLine(ParsingHTML(result.FirstChild.InnerText));
+                    Console.WriteLine();
                 }
             }
-
+           
 
         }
     }
